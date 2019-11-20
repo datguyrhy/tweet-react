@@ -21,6 +21,8 @@
   },
   "dependencies": {
     "express": ">=4.16.4",
+    "g": "^2.0.1",
+    "nodemon": "^2.0.0",
     "react": "^16.8.2",
     "react-dom": "^16.8.2"
   }
