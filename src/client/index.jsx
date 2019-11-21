@@ -13,10 +13,14 @@ var allTweets = Tweets.map(tweet=>{
   <div>
       <p>{tweet.user.name}</p>
       <p>{tweet.user.screen_name}</p>
-
+      <br/>
+      <br/>
+      <hr></hr>
+      <h2>Message</h2>
+      <Post content={tweet.text}  />
   </div>
   )
-})
+});
 
     return (
       <div>
